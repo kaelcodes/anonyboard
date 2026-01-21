@@ -3,6 +3,32 @@
     font-family: Arial, sans-serif;
 }
 
+/* BOARD FRAME */
+.board-frame {
+    background: #3b2f2f;
+    border: 12px solid #5a3e2b;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+/* BOARD SURFACE */
+.board {
+    background: repeating-linear-gradient(
+        45deg,
+        #7a5c3a,
+        #7a5c3a 10px,
+        #745533 10px,
+        #745533 20px
+    );
+    padding: 20px;
+    border-radius: 6px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 16px;
+}
+
 body {
     background: #121212;
     color: #ffffff;
