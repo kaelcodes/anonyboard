@@ -1,13 +1,17 @@
 const board = document.getElementById("board");
 
 /* ADD MODAL */
-const modal = document.getElementById("modal");
+const modal = document.getElementById("modal").style.display = "block";
+const modal = document.getElementById("modal").style.display = "none";
+
 const openModal = document.getElementById("openModal");
 const cancelBtn = document.getElementById("cancelBtn");
 const submitBtn = document.getElementById("submitBtn");
 
 /* DELETE MODAL */
-const deleteModal = document.getElementById("deleteModal");
+const deleteModal = document.getElementById("deleteModal").style.display = "block";
+const deleteModal = document.getElementById("deleteModal").style.display = "none";
+
 const deletePasswordInput = document.getElementById("deletePassword");
 const deleteCancelBtn = document.getElementById("deleteCancelBtn");
 const confirmDeleteBtn = document.getElementById("confirmDeleteBtn");
