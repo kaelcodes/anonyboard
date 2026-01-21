@@ -2,7 +2,6 @@ const board = document.getElementById("board");
 
 /* ADD MODAL */
 const modal = document.getElementById("modal").style.display = "block";
-const modal = document.getElementById("modal").style.display = "none";
 
 const openModal = document.getElementById("openModal");
 const cancelBtn = document.getElementById("cancelBtn");
