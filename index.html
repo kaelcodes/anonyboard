@@ -2,20 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Anonymous Message Board</title>
+    <title>AnonyBoard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="board">
-    <h1>🕵️ Anonymous Message Board</h1>
+<div class="container">
+    <h1>🕵️ AnonyBoard</h1>
 
     <form id="messageForm">
-        <textarea id="messageInput" placeholder="Write an anonymous message..." required></textarea>
-        <button type="submit">Post Message</button>
+        <input 
+            type="text" 
+            id="nameInput" 
+            placeholder="Your name (optional)"
+        >
+
+        <div class="anon-option">
+            <input type="checkbox" id="anonCheck">
+            <label for="anonCheck">Post anonymously</label>
+        </div>
+
+        <textarea 
+            id="messageInput" 
+            placeholder="Write your message..." 
+            required
+        ></textarea>
+
+        <button type="submit">Post</button>
     </form>
 
-    <div id="messages"></div>
+    <div id="board" class="board"></div>
 </div>
 
 <script src="script.js"></script>
