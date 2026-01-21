@@ -9,8 +9,7 @@ const cancelBtn = document.getElementById("cancelBtn");
 const submitBtn = document.getElementById("submitBtn");
 
 /* DELETE MODAL */
-const deleteModal = document.getElementById("deleteModal").style.display = "block";
-const deleteModal = document.getElementById("deleteModal").style.display = "none";
+const deleteModal = document.getElementById("deleteModal");
 
 const deletePasswordInput = document.getElementById("deletePassword");
 const deleteCancelBtn = document.getElementById("deleteCancelBtn");
